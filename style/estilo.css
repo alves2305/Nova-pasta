@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,900;1,8..60,700&display=swap');
+body{
+    background-image: url(/img/pexels-felix-mittermeier-956981.jpg);
+    background-size: cover;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.titulo {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #A2B6F2;
+}
+.botao-estilo {
+    padding: 15px 0px;
+    border-radius: 21px;
+    font-family: 'Source Serif 4', serif;
+    font-size: 30px;
+    font-weight: bold;
+    width:383px ;
+    margin-top: 10%;
+    background: #A2B6F2;
+    border: transparent;
+    
+
+}
+#conferir-resultado {
+    margin-left: 20px;
+}
+#digite-o-numero{
+    margin-right: 20px;
+}
+#resultado{
+    background-color: #A2B6F2;
+    width: 330px;
+    padding: 20px 25px;
+    border-radius: 21px;
+    text-align: center;
+}
+.botoes-secundarios {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-family: 'Source Serif 4', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.botao-estilo::placeholder {
+    text-align: center;
+    color: black;
+    
+}
+#conferir-resultado:hover{
+    background-color: green;
+}
+#pgr {
+    font-size: 35px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    #tit {
+        font-size: 40px;
+        text-align: center;
+        font-family: cursive;
+    }
+    #pgr{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    #tit {
+        margin-top: 20%;
+    }
+    
+    .botao-estilo {
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        margin-left: 10%;
+    }  
+    #conferir-resultado{
+        margin-left: 11%;
+        margin-bottom: 10%;
+    }
+    
+
+}
